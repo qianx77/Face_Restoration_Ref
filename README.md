@@ -26,6 +26,8 @@ Several popular methods that perform well in my own test data.
 |2020|ECCV|Blind Face Restoration via Deep Multi-scale Component Dictionaries|\[[paper](https://Arxiv.org/pdf/2008.00418)]\[[code](https://github.com/csxmli2016/DFDNet)]|CNN|DFDNet|
 |2020|CVPR|Enhanced Blind Face Restoration with Multi-Exemplar Images <br>and Adaptive Spatial Feature Fusion|\[[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Enhanced_Blind_Face_Restoration_With_Multi-Exemplar_Images_and_Adaptive_Spatial_CVPR_2020_paper.pdf)]\[[code](https://github.com/csxmli2016/ASFFNet)]|CNN|ASFFNet|
 |2022|TPAMI|Learning Dual Memory Dictionaries for Blind Face Restoration|\[[paper](https://arxiv.org/pdf/2210.08160.pdf)]\[[code](https://github.com/csxmli2016/DMDNet)]|CNN|DMDNet|
+|2022|ACM|MyStyle: A Personalized Generative Prior|\[[paper](https://dl.acm.org/doi/pdf/10.1145/3550454.3555436)]~~\[code]~~|GAN|MyStyle|
+|2023|arXiv|Personalized Restoration via Dual-Pivot Tuning|\[[paper](https://arxiv.org/abs/2312.17234)]\[[code](https://github.com/personalized-restoration/personalized-restoration)]|Diffusion|Dual-Pivot Tuning|
 |2024|arXiv|InstantRestore: Single-Step Personalized Face Restoration with Shared-Image Attention|\[[paper](https://arxiv.org/pdf/2412.06753)]\[[code](https://github.com/snap-research/InstantRestore)]|Diffusion|InstantRestore|
 |2024|CVPR|PFStorer: Personalized Face Restoration and Super-Resolution|\[[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Varanka_PFStorer_Personalized_Face_Restoration_and_Super-Resolution_CVPR_2024_paper.pdf)]~~\[code]~~|Diffusion|PFStorer|
 |2024|arXiv|RestorerID: Towards Tuning-Free Face Restoration with ID Preservation|\[[paper](https://arxiv.org/pdf/2411.14125)]\[[code](https://github.com/YingJiacheng/RestorerID)]|Diffusion|RestorerID|
@@ -76,6 +78,16 @@ Several popular methods that perform well in my own test data.
 |2024|NeurIPS|One-Step Effective Diffusion Network for Real-World Image Super-Resolution|\[[paper](https://arxiv.org/pdf/2406.08177)]\[[code](https://github.com/cswry/OSEDiff)]|Diffusion|OSEDiff|
 |2024|Arxiv|OSDFace: One-Step Diffusion Model for Face Restoration|\[[paper](https://arxiv.org/abs/2411.17163)]\[[code](https://github.com/jkwang28/OSDFace)]|Diffusion|OSDFace|
 
+### Others
+|Year<div style="width:20px">|Pub<div style="width:60px">|Title<div style="width:600px">|Links<div style="width:100px">|Arch<div style="width:45px">|Abbreviation<div style="width:45px">|
+|:---:|:----:|:----:|:----:|:----:|:----:|
+|2023|ICCV|Towards Authentic Face Restoration with Iterative Diffusion Models and Beyond|\[[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhao_Towards_Authentic_Face_Restoration_with_Iterative_Diffusion_Models_and_Beyond_ICCV_2023_paper.pdf)]~~\[code]~~|Diffusion|IDM|
+|2024|CVPR|WaveFace: Authentic Face Restoration with Efficient Frequency Recovery|\[[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Miao_WaveFace_Authentic_Face_Restoration_with_Efficient_Frequency_Recovery_CVPR_2024_paper.pdf)]~~\[code]~~|Diffusion|WaveFace|
+|2024|Arxiv|CLR-Face: Conditional Latent Refinement for Blind Face Restoration Using Score-Based Diffusion Models|\[[paper](https://arxiv.org/abs/2402.06106)]~~\[code]~~|Diffusion|CLR-Face|
+|2024|WACV|Diffuse and Restore: A Region-Adaptive Diffusion Model for Identity-Preserving Blind Face Restoration|\[[paper](https://openaccess.thecvf.com/content/WACV2024/papers/Suin_Diffuse_and_Restore_A_Region-Adaptive_Diffusion_Model_for_Identity-Preserving_Blind_WACV_2024_paper.pdf)]~~\[code]~~|Diffusion|Diffuse and Restore|
+|2024|arXiv|AuthFace: Towards Authentic Blind Face Restoration with Face-oriented Generative Diffusion Prior|\[[paper](https://arxiv.org/pdf/2410.09864)]\[[code](https://github.com/EthanLiang99/AuthFace)]|Diffusion|AuthFace|
+|2025|Arxiv|InfoBFR: Real-World Blind Face Restoration via Information Bottleneck|\[[paper](https://arxiv.org/pdf/2501.15443)]~~\[code]~~|Diffusion|InfoBFR|
+|2025|WACV|Towards Unsupervised Blind Face Restoration using Diffusion Prior|\[[paper](https://arxiv.org/pdf/2410.04618)]\[[code](https://github.com/SamsungLabs/DT-BFR)]|Diffusion|DT-BFR|
 
 ## Blind Face Restoration (Video) 
 |Year<div style="width:20px">|Pub<div style="width:60px">|Title<div style="width:600px">|Links<div style="width:100px">|Arch<div style="width:45px">|Abbreviation<div style="width:45px">|
