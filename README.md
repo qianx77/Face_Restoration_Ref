@@ -1,6 +1,15 @@
 # Paper and Code
 Inspired by sczhou [Awesome-Face-Restoration](https://github.com/sczhou/Awesome-Face-Restoration) and TaoWangzj [Awesome-Face-Restoration](https://github.com/TaoWangzj/Awesome-Face-Restoration).
 
+## Recommend
+Several popular methods that perform well in my own test data.
+
+|Year<div style="width:20px">|Pub<div style="width:60px">|Abbreviation<div style="width:45px">|Recommend<div style="width:45px">|
+|:---:|:----:|:----:|:----:|
+|2021|CVPR|GFPGAN v1.4|⭐️⭐️⭐️⭐️⭐️|
+|2022|NeurIPS|CodeFormer|⭐️⭐️⭐️⭐️⭐️|
+|2021|CVPR|GPEN|⭐️⭐️⭐️|
+
 ## Blind Face Restoration (Image) 
 ### Geometric Prior
 |Year<div style="width:20px">|Pub<div style="width:60px">|Title<div style="width:600px">|Links<div style="width:100px">|Arch<div style="width:45px">|Abbreviation<div style="width:45px">|
@@ -17,6 +26,15 @@ Inspired by sczhou [Awesome-Face-Restoration](https://github.com/sczhou/Awesome-
 |2020|ECCV|Blind Face Restoration via Deep Multi-scale Component Dictionaries|\[[paper](https://Arxiv.org/pdf/2008.00418)]\[[code](https://github.com/csxmli2016/DFDNet)]|CNN|DFDNet|
 |2020|CVPR|Enhanced Blind Face Restoration with Multi-Exemplar Images <br>and Adaptive Spatial Feature Fusion|\[[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Enhanced_Blind_Face_Restoration_With_Multi-Exemplar_Images_and_Adaptive_Spatial_CVPR_2020_paper.pdf)]\[[code](https://github.com/csxmli2016/ASFFNet)]|CNN|ASFFNet|
 |2022|TPAMI|Learning Dual Memory Dictionaries for Blind Face Restoration|\[[paper](https://arxiv.org/pdf/2210.08160.pdf)]\[[code](https://github.com/csxmli2016/DMDNet)]|CNN|DMDNet|
+|2024|arXiv|InstantRestore: Single-Step Personalized Face Restoration with Shared-Image Attention|\[[paper](https://arxiv.org/pdf/2412.06753)]\[[code](https://github.com/snap-research/InstantRestore)]|Diffusion|InstantRestore|
+|2024|CVPR|PFStorer: Personalized Face Restoration and Super-Resolution|\[[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Varanka_PFStorer_Personalized_Face_Restoration_and_Super-Resolution_CVPR_2024_paper.pdf)]~~\[code]~~|Diffusion|PFStorer|
+|2024|arXiv|RestorerID: Towards Tuning-Free Face Restoration with ID Preservation|\[[paper](https://arxiv.org/pdf/2411.14125)]\[[code](https://github.com/YingJiacheng/RestorerID)]|Diffusion|RestorerID|
+|2024|arXiv|Overcoming False Illusions in Real-World Face Restoration with Multi-Modal GuidedDiffusion Model|\[[paper](https://arxiv.org/pdf/2410.04161)]~~\[code]~~|Diffusion|MGFR|
+|2024|arXiv|Copy or Not? Reference-Based Face Image Restoration with Fine Details|\[[paper](https://jianwang-cmu.github.io/25Refine/main.pdf)]\[[code](https://github.com/RefineFIR/RefineFIR)]|Diffusion|RefineFIR|
+|2024|Sensors|PDGrad: Guiding Diffusion Model for Reference-Based Blind Face Restoration with Pivot Direction Gradient Guidance|\[[paper](https://www.mdpi.com/1424-8220/24/22/7112)]~~\[code]~~|Diffusion|PDGrad|
+|2024|CVPR|Restoration by Generation with Constrained Priors|\[[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Ding_Restoration_by_Generation_with_Constrained_Priors_CVPR_2024_paper.pdf)]\[[code](https://github.com/adobe-research/gen2res)]|Diffusion|gen2res|
+|2024|WACV|ENTED: Enhanced Neural Texture Extraction and Distribution for Reference-based Blind Face Restoration|\[[paper](https://openaccess.thecvf.com/content/WACV2024/papers/Lau_ENTED_Enhanced_Neural_Texture_Extraction_and_Distribution_for_Reference-Based_Blind_WACV_2024_paper.pdf)]~~\[code]~~|Diffusion|ENTED|
+|2025|AAAI|FaceMe: Robust Blind Face Restoration with Personal Identification|\[[paper](https://arxiv.org/pdf/2501.05177)]\[[code](https://github.com/modyu-liu/FaceMe)]|Diffusion|FaceMe|
 ### Generative Prior (good)
 |Year<div style="width:20px">|Pub<div style="width:60px">|Title<div style="width:600px">|Links<div style="width:100px">|Arch<div style="width:45px">|Abbreviation<div style="width:45px">|
 |:---:|:----:|:----:|:----:|:----:|:----:|
@@ -44,7 +62,7 @@ Inspired by sczhou [Awesome-Face-Restoration](https://github.com/sczhou/Awesome-
 |2023|TPAMI|RestoreFormer++: Towards Real-World Blind Face Restoration from Undegraded Key-Value Pairs|\[[paper](https://Arxiv.org/pdf/2205.06803.pdf)]\[[code](https://github.com/wzhouxiff/RestoreFormerPlusPlus)]|ViT|RestoreFormer++|
 |2022|CVPR|Rethinking Deep Face Restoration|\[[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhao_Rethinking_Deep_Face_Restoration_CVPR_2022_paper.pdf)]\[code]|GAN|-|
 |2024|ICLR|Dual Associated Encoder for Face Restoration|\[[paper](https://arxiv.org/pdf/2308.07314)]\[[code](https://github.com/LIAGM/DAEFR)]|ViT|DAEFR|
-### Diffusion
+### Diffusion Prior
 |Year<div style="width:20px">|Pub<div style="width:60px">|Title<div style="width:600px">|Links<div style="width:100px">|Arch<div style="width:45px">|Abbreviation<div style="width:45px">|
 |:---:|:----:|:----:|:----:|:----:|:----:|
 |2022|Arxiv|Difface: Blind Face Restoration with Diffused Error Contraction|\[[paper](https://arxiv.org/pdf/2212.06512.pdf?trk=public_post_comment-text)]\[[code](https://github.com/zsyOAOA/DifFace)]|Diffusion|DifFace|
