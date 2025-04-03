@@ -95,8 +95,11 @@ Several popular methods that perform well in my own test data.
 |2023|Arxiv |FLAIR: A Conditional Diffusion Framework with Applications to Face Video Restoration|\[[paper](https://arxiv.org/pdf/2311.15445)]\[code]|Diffusion|FLAIR|
 |2024|IJCAI|Beyond Alignment: Blind Video Face Restoration via Parsing-Guided Temporal-Coherent Transformer|\[[paper](https://arxiv.org/abs/2404.13640)]\[[code](https://github.com/kepengxu/PGTFormer)]|ViT|PGTFormer|
 |2024|ECCV |KEEP: Kalman-Inspired Feature Propagation for Video Face Super-Resolution|\[[paper](https://arxiv.org/abs/2408.05205)]\[[code](https://github.com/jnjaby/KEEP)]|ViT|KEEP|
-|2024|TIP |Analysis and Benchmarking of Extending Blind Face Image Restoration to Videos|\[[paper](https://arxiv.org/pdf/2410.11828)]~~\[[code](https://wzhouxiff.github.io/projects/FIR2FVR/FIR2FVR)]~~|General|-|
-
+|2024|TIP |FIR2FVR: Analysis and Benchmarking of Extending Blind Face Image Restoration to Video|\[[paper](https://arxiv.org/pdf/2410.11828)]~~\[[code](https://wzhouxiff.github.io/projects/FIR2FVR/FIR2FVR)]~~|General|FIR2FVR|
+|2024|ACML |Universal Video Face Restoration Method Based on Vision-Language Model|\[[paper](https://openreview.net/pdf?id=UeR3inbVZQ)]~~\[code]~~|Diffusion|-|
+|2024|ACM MM |Blind Face Video Restoration with Temporal Consistent Generative Prior and Degradation-Aware Prompt|\[[paper](https://openreview.net/pdf?id=qaIS3nvAem)]~~\[code]~~|Diffusion|StableBFVR|
+|2025 |CVPR |Efficient Video Face Enhancement with Enhanced Spatial-Temporal Consistency|\[[paper](https://arxiv.org/abs/2411.16468)]\[[code](https://github.com/Dixin-Lab/BFVR-STC)]|ViT|BFVR-STC|
+|2025 |ArXiv |KEEP: Kalman-Inspired Feature Propagation for Video Face Super-Resolution|\[[paper](https://arxiv.org/abs/2501.01235)]\[[code](https://github.com/wangzhiyaoo/SVFR)]|Diffusion|SVFR|
 
 ## Datasets
 ### Image Face Dataset
